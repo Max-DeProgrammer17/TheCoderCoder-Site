@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/*NAVBAR STYLES*/
+
+.navbar{
+height: 56px;
+background: #495bcf;
+display: flex;
+justify-content: space-around;
+align-items: center;
+gap: 55rem;
+}
+
+.navbar__name{
+color: #fff;
+width: 275px;
+height: 16px;
+font-weight: bold;
+font-size: 20px;
+display: inline;
+}
+
+.navbar__links{
+    float: right;
+    list-style-type: none;
+    display: flex;
+    gap: 2rem;
+}
+
+.navbar__links li{
+font-weight: 700;
+font-size: 15px;
+line-height: 100%;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+color: #fff;
+}
