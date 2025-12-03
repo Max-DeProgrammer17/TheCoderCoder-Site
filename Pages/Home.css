@@ -13,7 +13,7 @@ background: #495bcf;
 display: flex;
 justify-content: space-around;
 align-items: center;
-gap: 55rem;
+gap: 53rem;
 }
 
 .navbar__name{
@@ -40,3 +40,83 @@ letter-spacing: 0.05em;
 text-transform: uppercase;
 color: #fff;
 }
+
+/*SECTION UNDER NAVBAR*/
+
+.container{
+height: 600px;
+background-color: #495bcf;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.container__hero{
+    background-color: #495bcf;
+    width: 1380px;
+    height: 486px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero__left{
+    width: 50%;
+}
+
+.hero__left > h1{
+font-weight: 700;
+font-size: 50px;
+line-height: 100%;
+color: #fff;
+}
+
+.hero__left > p{
+/* font-weight: 400; */
+margin-top: 30px;
+font-size: 20px;
+line-height: 129%;
+color: #fff;
+}
+
+.left__btn{
+    margin-top: 30px;
+}
+.left__btn .free{
+font-weight: 700;
+font-size: 12px;
+line-height: 100%;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+text-align: center;
+color: #383a4a;
+border: 2px solid #00d3d4;
+border-radius: 24px;
+width: 95px;
+height: 30px;
+background: #00d3d4;
+}
+
+.left__btn .price{
+ font-weight: 700;
+font-size: 12px;
+line-height: 100%;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+text-align: center;
+color: #fff;
+border: 2px solid #fff;
+border-radius: 24px;
+width: 95px;
+height: 30px;
+background: #495bcf;
+margin-left: 15px;
+}
+
+.hero__right{
+    width: 60%;
+    height: 100%;
+    text-align: right ;
+}
+
