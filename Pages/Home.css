@@ -176,3 +176,37 @@ height: 209px;
 width: 346px;
 height: 163px;
 }
+
+/* Fullwidth Feature Styles */
+
+.fwfeature{
+    background: #bf1085;
+height: 545px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.fwfeature__container{
+ /* background-color: black; */
+ width: 81%;
+ height: 450px;
+}
+
+.fwfeature__container p{
+font-weight: 400;
+font-size: 0.9rem;
+line-height: 130%;
+text-align: center;
+color: #fff;
+margin: 12px 0px 0px 0px;
+}
+
+.fwfeature__container h2{
+font-weight: 400;
+font-size: 1.6rem;
+line-height: 110%;
+text-align: center;
+color: #fff;
+/* margin: 10px 0; */
+}
