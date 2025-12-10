@@ -212,3 +212,44 @@ color: #fff;
 }
 
 /* TESTIMONIALS STYLES */
+ .testimonials{
+    /* background-color: black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+ }
+
+ .testimonials__container{
+    /* background-color: white; */
+    width: 65.5%;
+ }
+
+ .testimonials__container p{
+font-weight: 600;
+font-size: 1.2rem;
+line-height: 120%;
+margin: 12px 0px;
+color: #383a4a;
+ }
+
+ .container__author{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    width: 400px;
+    /* background-color: red; */
+ }
+
+ .container__author div >  img{
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+ }
+
+ .container__author .text  > p{
+    font-size: 0.9rem;
+    font-weight: lighter;
+    /* background-color: brown; */
+    width: 290px;
+ }
