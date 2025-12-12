@@ -257,7 +257,7 @@ color: #383a4a;
  /* FULLWIDTH CALL TO ACTIO STYLES */
  .cta{
     background: linear-gradient(90deg, #3b384a 0%, #495bcf 50.09%, #00d3d4 100%);
-    height: 290px;
+    height: 220px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -301,4 +301,41 @@ height: 30px;
 background: #fff;
  }
 
- 
+ /* Footer Syles */
+
+ .footer{
+    /* background-color: cyan; */
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .footer__container{
+    /* background-color: #fff; */
+    height: 200px;
+    width: 91%;
+    display: flex;
+    flex-direction: column;
+ }
+
+ .footer__container .bottom{
+    display: flex;
+    /* background-color: pink; */
+    padding: 10px 0px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 18rem;
+ }
+
+ .footer__container .bottom p{
+    margin:4px 0px;
+ }
+
+ .footer__container .top{
+    /* background-color: brown; */
+    width: 30%;
+ }
+ .footer__container .top p{
+    font-size: 0.9rem;
+ }
