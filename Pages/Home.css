@@ -339,3 +339,42 @@ background: #fff;
  .footer__container .top p{
     font-size: 0.9rem;
  }
+
+ /* RESPONSIVENESS - LAPTOP 1024PX */
+
+ @media (min-width: 1024px){
+   .navbar{
+    width: 100%;
+    max-width: none;
+    justify-content: space-between;
+    gap: 0rem;
+    padding: 0px 10px;
+ }
+
+ .container, .container__hero, .features, .fwfeature, .testimonials, .cta, .footer{
+    width: 100%;
+    padding: 0px 10px;
+ }
+
+ .features{
+    width: 100%;
+ }
+
+ .features__container{
+    width: 80%;
+ }
+ .features__container{
+    gap: 4rem;
+ }
+
+ .footer__container .bottom{
+    gap: 10rem;
+    
+ }
+
+
+
+
+
+
+ }
